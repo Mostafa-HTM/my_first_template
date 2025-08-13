@@ -1,0 +1,90 @@
+#topmenu {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    box-shadow: 0 0 10px 0.1px #144552;
+    z-index: 100;
+    background: #e2ece9;
+}
+
+.topmenu {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topmenu > ul {
+    width: 100%;
+}
+
+.topmenu > ul > li {
+    float: right;
+}
+
+.topmenu > ul li> a {
+    line-height: 40px;
+    color: #144552;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.topmenu > ul> li> a:hover {
+    color: #8bbbb9;
+}
+
+.search {
+    float: left;
+    line-height: 40px;
+}
+
+.search > form > input {
+    border: 1px solid #8bbbb9;
+    border-radius: 6px;
+    padding: 2px 5px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search > form > input :focus {
+    outline: none;
+}
+
+/* ******************banner*******************/
+#banner {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    background: url('../images/banner.jpg') repeat-x 0 40px fixed;
+    top: 40px;
+    opacity: 70%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.banner {
+    max-width: max-content;
+    line-height: 120px;
+    position: fixed;
+}
+
+.banner > .title {
+    margin: 0 auto;
+    color: #f1fffa;
+    font-size: 34px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/icon.png) no-repeat 0 40px fixed;
+    opacity: 80%;
+}
+
+.logo:hover {
+    opacity: 10%;
+    width: 10px;
+}

@@ -1,0 +1,120 @@
+#mftMenu {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-color: #144552;
+    top: 40px;
+}
+
+.mftMenu {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;   
+}
+
+.mftMenu > ul {
+    width: 100%;
+    height: 100%;
+}
+
+.mftMenu > ul > li {
+    float: right;
+    height: 100%;
+}
+
+.mftMenu > ul > li > a {
+    margin-left: 30px;
+    color: #f1fffa;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.mftMenu > ul > li > a:hover {
+    color: #8bbbb9;
+}
+
+.mftMenu > ul > li > ul {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 100%;
+    background: #e2ece9;
+    z-index: 90;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #8bbbb9;
+    box-shadow: 0 0 30px 0 #144552;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.mftMenu > ul > li > ul > li {
+    margin: 20px;
+}
+
+.mftMenu .image-link {
+    display: block;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.mftMenu .image-link > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.mftMenu .title {
+    margin-top: 20px;
+    color: #144552;
+    font-size: 18px;
+}
+
+.mftMenu .image-link {
+    display: block;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.mftMenu .image-link:hover {
+    box-shadow: 2px 2px 15px #144552;
+}
+
+.mftMenu .image-link > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.mftMenu .title {
+    margin-top: 20px;
+    color: #144552;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mftMenu > ul > li > ul > li:hover .title {
+    color: #8bbbb9;
+
+}
+
+.mftMenu > ul > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}

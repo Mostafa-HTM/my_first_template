@@ -1,0 +1,84 @@
+.mainSidebar {
+    width: 350px;
+    float: left;
+}
+
+.mainSidebar > * {
+    width: 100%;
+}
+
+.sidebar {
+    background: #e2ece2;
+    box-shadow: 0 -20px 30px #9dbfda inset;
+    margin: 30px;
+}
+
+.sidebarTitle{
+    margin: 0;
+    padding: 10px;
+    background: #4d908e;
+    color: #f1fff1;
+    font-weight: lighter;
+}
+
+.sidebar > ul > li > a{
+    padding: 5px 10px;
+    color: #144551;
+}
+
+.sidebar > ul > li > a:hover{
+    background: #9bdfda;
+}
+
+.sidebarCommImg {
+    margin: 30px;
+}
+
+.sidebarCommImg > a > img {
+    width: 100%;
+}
+
+.sidebarCommTxt {
+    margin: 30px;
+}
+
+.sidebarCommTxt a {
+    padding: 5px 10px;
+    color: #144551;
+}
+
+.sidebarCommTxt > ul > li:nth-child(1) > a {
+    border-right: 5px solid #ff2323;
+    background: #fcb2b2;
+}
+
+.sidebarCommTxt > ul > li:nth-child(2) > a {
+    border-right: 5px solid #4023ff;
+    background: #c7befe;
+}
+
+.sidebarCommTxt > ul > li:nth-child(3) > a {
+    border-right: 5px solid #fb23ff;
+    background: #fcb3fd;
+}
+
+.sidebarCommTxt > ul > li:nth-child(1):hover > a {
+    border-right: 5px solid #fcb2b2;
+    background: #ff2323;
+    color: white;
+    
+}
+
+.sidebarCommTxt > ul > li:nth-child(2):hover > a {
+    border-right: 5px solid #c7befe;
+    background: #4023ff;
+    color: white;
+    
+}
+
+.sidebarCommTxt > ul > li:nth-child(3):hover > a {
+    border-right: 5px solid #fcb3fd;
+    background: #fb23ff;
+    color: white;
+    
+}

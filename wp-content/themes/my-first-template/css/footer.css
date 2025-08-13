@@ -1,0 +1,45 @@
+#footer {
+    width: 100%;
+    height: 300px;
+    background: #144551;
+}
+
+.footer * {
+    color: #f1fff1;
+}
+.footer {
+    width: 1170px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerItem {
+    width: 300px;
+    height: 100%;
+}
+
+#permissions {
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+}
+
+.footerItem > p {
+    text-align: justify;
+}
+
+.footerImg {
+    width: 180px;
+    height: 180px;
+    overflow: visible;
+}
+
+.footerImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}

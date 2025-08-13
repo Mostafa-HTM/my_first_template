@@ -1,0 +1,147 @@
+#products {
+    position: relative;
+    width: 100%;
+    top: 40px;
+    margin: 40px auto;
+}
+
+.productsTitle {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #e2ece9;
+    box-shadow:  0 -10px 20px #9bdfda inset;
+}
+
+.mainPattern {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    box-shadow:  0 -10px 20px #9bdfda inset;
+}
+
+.pattern {
+    width: 290px;
+    margin: 0 20px 50px;
+    background: #e2ece9;
+    padding: 20px;
+    box-shadow:  0 -40px 40px #9bdfda inset,
+    5px 5px 20px #868686;
+    -webkit-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 400ms;
+    -moz-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 400ms;
+    -o-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 400ms;
+}
+
+.pattern:hover{
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+.patternTitle {
+    max-width: max-content;
+    margin-top: 0;
+}
+
+.patternTitle > a {
+    color: #144551;
+}
+
+.patternTitle > a:hover {
+    color: #4d988e;
+}
+
+.patternImage {
+    width: 255px;
+    margin: 0 auto;
+}
+
+.patternImage > a > img {
+    width: 255px;
+    height: 150px;
+    border-radius: 6px;
+    display: block;
+}
+
+.patternFooter {
+    padding: 20px;
+}
+
+.patternPrice { 
+    color: #144551;
+    float: right;
+}
+
+.patternPrice > p {
+    font-family: mftn;
+    float: right;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.patternShopping {
+    position: relative;
+    padding: 3px 15px;
+    float: left;
+    background: #144551;
+    color: #f1fff1;
+    border: 1px solid #144551;
+    border-radius: 5px;
+}
+
+.patternShopping:hover {
+    background: #f1fff1;
+    color: #144551;
+}
+
+/*--------------------pagination-----------------------*/
+#addPagination {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*--------------------comments-----------------------*/
+#comments {
+    position: relative;
+    width: 100%;
+    top: 40px;
+    margin: 40px auto;
+}
+
+.commentsTitle {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #e2ece9;
+    box-shadow:  0 -10px 20px #9bdfda inset;
+}
+
+.commentsContent {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0;
+    box-shadow:  0 -10px 20px #9bdfda inset;
+}
+
+.commentsContent ul {
+    padding: 20px;
+}
+
+.commentsContent ul li {
+   margin-bottom: 30px;
+}
+
+.eror {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    color: #144551;
+}
